@@ -1,0 +1,142 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+/* nav style */
+header {
+    background-color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.left-nav, .right-nav {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    align-items: center;
+}
+
+.left-nav {
+    margin-left: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 8px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.sL {
+    height: 25px;
+    margin-left: 8px;
+}
+
+.gI {
+    margin-left: 4px;
+    height: 25px;
+}
+
+.Ac {
+    margin-left: 4px;
+    height: 35px;
+}
+
+.right-nav a {
+    position: relative;
+}
+
+.right-nav a, .sL, .Ac, .gI {
+    vertical-align: middle;
+}
+
+
+/* Main Body Style */
+.gL {
+    display: block;
+    margin-left: auto;
+    margin-top: 15rem;
+    margin-right: auto;
+    width: 25%;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+    width: 582px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    box-shadow: 0 none;
+    outline: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.searchButton, .randomButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.searchButton:hover, .randomButton:hover {
+    border:1px solid #e8e8e8;
+}
+
+/* Footer Style */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.contentInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.left-footer, .middle-footer, .right-footer {
+    display: flex;
+    align-items: center;
+}
+
+.left-footer a, .middle-footer a, .right-footer a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: black;
+}
+
+.leaf {
+    height: 24px;
+}
+
+.contentInfo a:hover {
+    text-decoration: underline;
+}
